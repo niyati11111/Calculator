@@ -1,10 +1,31 @@
 body {
   background: #0a0a0f;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: sans-serif;
  }
 .calculator{
-background-color: aliceblue;
+  background-color: #111118;
+  width: 320px;
+  border-radius: 18px;
+  padding: 22px 20px 20px;
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+.brand-name {
+  font-family: 'Times New Roman', Times, serif ;
+  font-weight: 900;
+  font-size: 18px;
+  color: #ff5533;
+  text-shadow: 0 0 12px rgba(255,85,51,0.6);
+  line-height: 1;
+}
+.model-tag {
+  font-family:'Times New Roman', Times, serif ;
+  font-size: 8px;
+  font-weight: 400;
+  color: rgba(180,180,200,0.5);
+  gap: 200px;
 }
